@@ -1,0 +1,77 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  background: #d9d9d9;
+  width: 404px;
+  height: 404px;
+  position: relative;
+  z-index: 1;
+}
+
+.triangle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 109px solid #ce3607;
+  border-left: 101px solid transparent;
+  z-index: 3;
+}
+.rectangle_sqw {
+  position: absolute;
+  top: 153px;
+  right: 49px;
+  z-index: 3;
+  background-color: #1c3f9b;
+  width: 310px;
+  height: 48px;
+  -webkit-transform: rotate(47deg);
+  -ms-transform: rotate(47deg);
+  transform: rotate(47deg);
+}
+.rectangle_rnd {
+  position: absolute;
+  top: 270px;
+  right: 50.5px;
+  z-index: 4;
+  background-color: #920fbf;
+  width: 304px;
+  height: 82px;
+  border-radius: 30px;
+}
+
+.circle_s {
+  position: absolute;
+  top: 137px;
+  right: 77px;
+  z-index: 5;
+  background-color: #0ca565;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.circle_l {
+  position: absolute;
+  top: -104px;
+  left: -91px;
+  width: 320px;
+  height: 320px;
+  border-radius: 160px;
+  z-index: 2;
+  background: conic-gradient(
+    from 0.25turn at 28.5% 32%,
+    #248456,
+    90deg,
+    transparent 0
+  );
+}
